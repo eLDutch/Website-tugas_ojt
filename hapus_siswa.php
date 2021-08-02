@@ -8,7 +8,8 @@ if(isset($_SESSION['login'])){
 		header('location:index_admin.php');
 	}else{
 		echo "Hapus data gagal...,
-			<a href='index_admin.php'><<< Kembali</a>";
+			<a href='index_admin.php'>
+			<<< Kembali</a>";
 	}
 }else{
 	echo "Anda tidak memiliki akses ke halaman ini!!!";
